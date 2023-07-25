@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Money Exchanger</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/1cd4e8042e.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        
+    </head>
+    <body class="bg-dark">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-auto align-content-between bg-secondary rounded mt-5 px-5 pt-3 pb-5">
+                    <div class="row">
+                        <div class="col text-center fst-italic">
+                            <h3 class="mb-4"><i class="fa-solid fa-coins"></i> Money Xchanger Lite</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="bg-dark col align-content-center d-flex">
+                                <input class="form-control bg-dark border border-0 text-secondary me-2" id="value" type="search" placeholder="Value" aria-label="amount">
+                                <select class="btn btn-dark text-secondary dropdown-toggle" name="currency1" id="curr">
+                                    <option class="dropdown-item" value="JOD">JOD</option>
+                                    <option class="dropdown-item" value="TRY">TRY</option>
+                                    <option class="dropdown-item" value="ILS">ILS</option>
+                                    <option class="dropdown-item" value="EUR">EUR</option>
+                                    <option class="dropdown-item" value="USD">USD</option>
+                                  </select>
+                                  <select class="btn btn-dark text-secondary dropdown-toggle" name="currency2" id="curr2">
+                                    <option class="dropdown-item" value="JOD">JOD</option>
+                                    <option class="dropdown-item" value="TRY">TRY</option>
+                                    <option class="dropdown-item" value="ILS">ILS</option>
+                                    <option class="dropdown-item" value="EUR">EUR</option>
+                                    <option class="dropdown-item" value="USD">USD</option>
+                                  </select>
+                                <button class="btn bg-dark text-secondary" id="btn-xchange" type="button">Exchange</button>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-center d-flex">
+                            <h5 class="text-dark mt-5 result"></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
